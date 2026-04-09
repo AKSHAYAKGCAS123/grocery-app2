@@ -1,0 +1,85 @@
+/* Cart container */
+.cart {
+  width: 320px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: 0.3s;
+}
+
+/* Cart heading */
+.cart h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+/* Success message */
+.success-msg {
+  color: #2e7d32;
+  background: #e8f5e9;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Empty cart text */
+.empty-cart {
+  color: #888;
+  font-style: italic;
+}
+
+/* Cart items container */
+.cart-items {
+  margin: 15px 0;
+}
+
+/* Each item */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 8px 0;
+  background: #f9f9f9;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.cart-item:hover {
+  background: #f1f1f1;
+}
+
+/* Total price */
+.total {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Order button */
+.order-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #4caf50, #43a047);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button hover effect */
+.order-btn:hover {
+  background: linear-gradient(135deg, #388e3c, #2e7d32);
+  transform: scale(1.03);
+}
+
+/* Button click effect */
+.order-btn:active {
+  transform: scale(0.98);
+}
